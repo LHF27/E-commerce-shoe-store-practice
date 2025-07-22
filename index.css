@@ -1,0 +1,80 @@
+/* header */
+.header {
+  background-image: url(./img/index/品牌故事geader.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 152px 0;
+}
+
+.header .h1,
+.header .h3{
+  color: var(--neutral-0);
+}
+
+/* main */
+.section-underline {
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+/* 引用 */
+.quote {
+  background-color: var(--primary-100);
+  border-radius: 12px;
+}
+
+.quote .h5{
+  color: var(--primary-400);
+}
+
+/* 品牌簡介 */
+.introduction-img {
+  margin-right: -110px;
+  margin-left: -110px;
+}
+
+.introduction .h5 {
+  color: var(--primary-400);
+}
+
+/* 品牌歷程 */
+.brand-history-dots {
+  list-style-type: disc;
+  padding-left: 24px;
+}
+
+.brand-history-line {
+  padding-left: 8px;
+  border-left: 1px solid var(--neutral-900);
+}
+
+/* 品牌理念 */
+.concept-line {
+  padding-left: 12px;
+  border-left: 3px solid var(--neutral-300);
+}
+
+/* 品牌小故事 */
+.bi {
+  vertical-align: bottom;
+}
+
+.story-style {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: var(--primary-400);
+}
+
+.story-style:hover {
+  font-size: 20px;
+  background-color: var(--primary-400);
+  color: var(--neutral-0);
+  text-decoration: none;
+}
+
+/* footer */
+.footer {
+  background-color: var(--neutral-100);
+  color: var(--neutral-600);
+  padding: 66px 0;
+}
