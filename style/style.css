@@ -57,6 +57,22 @@ body {
     display: flex;
 }
 
+.jcsb {
+    justify-content: space-between;
+} 
+
+.jcc {
+    justify-content: center;
+}
+
+.aic {
+    align-items: center;
+}
+
+.fxww {
+    flex-wrap: wrap;
+}
+
 .tac {
     text-align: center;
 }
