@@ -209,6 +209,12 @@ body{
   color: var(--primary-400);
 }
 
+.story a:hover {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .bi {
   vertical-align: bottom;
 }
