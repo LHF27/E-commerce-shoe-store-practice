@@ -1,22 +1,3 @@
-/* main */
-/* 麵包屑導覽  */
-.breadcrumb-item + .breadcrumb-item::before {
-  content: '/';
-  padding: 0 12px;
-  color: var(--neutral-300);
-  font-weight: 700;
-}
-
-.breadcrumb-item {
-  display: flex;
-  font-weight: 500;
-}
-
-.breadcrumb-link {
-  color: var(--neutral-600);
-}
-
-
 /* 產品列表 */
 /* 左側欄位 */
 .category .active{

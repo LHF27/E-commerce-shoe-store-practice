@@ -21,6 +21,7 @@
     --neutral-700: #495057;
     --neutral-800: #343A40;
     --neutral-900: #212529;
+    --danger-300:#D74F4F;
 }
 
 /* 標籤基本樣式 */
@@ -58,23 +59,6 @@ body {
     width: 1296px;
     margin: 0 auto;
 }
-
-.btn {
-    border-radius: 4px;
-    padding: 12px 24px;
-    line-height: 1.5;
-    font-weight: 500;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-}
-
-.btn-dark {
-    background-color: var(--neutral-900);
-    color: var(--neutral-0);
-}
-
 .d-flex {
     display: flex;
 }
@@ -99,6 +83,46 @@ body {
     text-align: center;
 }
 
+/* 按鈕 */
+.btn {
+    border-radius: 4px;
+    padding: 12px 24px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.btn-dark {
+    background-color: var(--neutral-900);
+    color: var(--neutral-0);
+}
+
+.btn-light {
+    border: 1px solid var(--neutral-900);
+}
+
+/* 麵包屑導覽  */
+.breadcrumb-item + .breadcrumb-item::before {
+  content: '/';
+  padding: 0 12px;
+  color: var(--neutral-300);
+  font-weight: 700;
+}
+
+.breadcrumb-item {
+  display: flex;
+  font-weight: 500;
+}
+
+.breadcrumb-link {
+  color: var(--neutral-600);
+}
+
+
+
 /* 欄位 */
 .row {
     display: flex;
@@ -122,6 +146,14 @@ body {
     width: calc(100% / 12 * 4);
 }
 
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+}
+
 .col-10 {
     width: calc(100% / 12 * 10);
 }
@@ -134,6 +166,11 @@ body {
 .p-32 {
     padding: 32px;
 }
+
+.pb-12 {
+    padding-bottom: 12px;
+}
+
 
 .pb-24 {
     padding-bottom: 24px;
@@ -195,6 +232,10 @@ body {
     margin-bottom: 4px;
 }
 
+.mb-8{
+    margin-bottom: 8px;
+}
+
 .mb-12 {
     margin-bottom: 12px;
 }
@@ -215,6 +256,9 @@ body {
     margin-bottom: 48px;
 }
 
+.g-8 {
+    gap: 8px;
+}
 
 
 /* 文字 */
