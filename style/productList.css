@@ -28,24 +28,5 @@
   font-weight: 500;
 }
 
-/* banner-down */
-.banner-down {
-  background-color: var(--primary-200);
-}
-
-.banner-down .btn:hover {
-  color: var(--neutral-900);
-  background-color: var(--neutral-0);
-  font-weight: 700;
-}
-
-/* footer */
-.footer-underline {
-  border-bottom: 1px solid var(--neutral-300);
-}
-
-.copyright {
-  color: var(--neutral-600);
-}
 
 

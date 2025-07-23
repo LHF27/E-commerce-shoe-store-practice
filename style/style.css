@@ -121,6 +121,26 @@ body {
   color: var(--neutral-600);
 }
 
+/* banner-down */
+.banner-down {
+  background-color: var(--primary-200);
+}
+
+.banner-down .btn:hover {
+  color: var(--neutral-900);
+  background-color: var(--neutral-0);
+  font-weight: 700;
+}
+
+/* footer */
+.footer-underline {
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+.copyright {
+  color: var(--neutral-600);
+}
+
 
 
 /* 欄位 */
@@ -140,6 +160,10 @@ body {
 
 .col-2 {
     width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
 }
 
 .col-4 {
@@ -200,6 +224,10 @@ body {
     padding: 32px 0;
 }
 
+.py-48 {
+    padding: 48px 0;
+}
+
 .py-64 {
     padding: 64px 0;
 } 
@@ -250,6 +278,10 @@ body {
 
 .mb-32 {
     margin-bottom: 32px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
 }
 
 .mb-48 {
