@@ -12,6 +12,13 @@
   color: var(--neutral-0);
 }
 
+@media(max-width: 567px) {
+  .header {
+    padding: 87px 0;
+    background-image: url(../img/index/品牌故事sm.png);
+  }
+}
+
 /* main */
 .section-underline {
   border-bottom: 1px solid var(--neutral-300);
@@ -27,10 +34,23 @@
   color: var(--primary-400);
 }
 
+@media(max-width:567px) {
+  .quote {
+      text-align:left;
+  }
+}
+
 /* 品牌簡介 */
 .introduction-img {
   margin-right: -110px;
   margin-left: -110px;
+}
+
+@media(max-width:1000px) {
+  .introduction-img{
+   margin-right:auto;
+   margin-left:auto; 
+  }
 }
 
 .introduction .h5 {
@@ -76,5 +96,4 @@
 .footer {
   background-color: var(--neutral-100);
   color: var(--neutral-600);
-  padding: 66px 0;
 }
